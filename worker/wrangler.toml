@@ -1,0 +1,9 @@
+name = "room-display-worker"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# Secrets are NOT set here. After `wrangler login`, run:
+#   wrangler secret put ZOHO_CLIENT_ID
+#   wrangler secret put ZOHO_CLIENT_SECRET
+#   wrangler secret put ZOHO_REFRESH_TOKEN
+#   wrangler secret put ZOHO_CALENDAR_UID
